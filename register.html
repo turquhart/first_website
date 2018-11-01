@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<form>
+		First Name: <input type="text" name="firstname" required><br>
+		Last Name: <input type="text" name="lastname" required><br>
+		Email: <input type="Email" name="email" required><br>
+		Password: <input type="password" name="password" min="6"><br>
+		Birthday: <input type="date" name="birthday" required><br>
+		<p>Gender</p>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<p>Which of these do you own?</p>
+		<input type="checkbox" name="birds">Birds<br>
+		<input type="checkbox" name="fish">Fish<br>
+		<p>Which sports do you like?</p>
+			<select name="sports" multiple>
+				<option value="baseball">baseball</option><br>
+				<option value="basketball">basketball</option><br>
+				<option value="football">football</option><br>
+				<option value="track">track and field</option><br>
+			</select><br>
+		<input type="submit" value="Register">
+		<input type="Reset" value="Cancel"><br>
+	</form>
+
+</body>
+</html>
